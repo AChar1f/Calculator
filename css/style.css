@@ -6,27 +6,49 @@
     box-sizing: border-box;
 }
 
-button{
-    width: 50px;
-    background-color: grey;
-    color: whitesmoke;
-    border-radius: 90px;
-    border-color:bisque
+h1 {
+    text-align: center;
 }
 
-.calcbody {
-    background-color:rgb(110, 90, 137);
-    max-width: fit-content;
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 90px;
+    width: 450px;
+    margin:  auto;
+    border: solid 10px grey;
 }
 
-.add { 
-
-    
+.child {
+    border: 1px solid white;
+    background-color: black;
+    color: gainsboro;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
 }
-.screen {
-    width: 100%;
+
+.childscreen {
+    grid-column: 1/5;
+    border: solid 5px black;
+    background-color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+.childzero {
+    grid-column: 1/3;
+    background-color: silver;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+
 }
 
-button:hover{
-    color:aqua;
+.child:hover {
+    color: blue;
+    background-color: #505050;
+}
+
+.childzero:hover{
+    color:blue;
+    background-color: #505050;
 }
