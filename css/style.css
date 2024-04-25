@@ -5,3 +5,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+button{
+    width: 50px;
+    background-color: grey;
+    color: whitesmoke;
+    border-radius: 90px;
+    border-color:bisque
+}
+
+.calcbody {
+    background-color:rgb(110, 90, 137);
+    max-width: fit-content;
+}
+
+.add { 
+
+    
+}
+.screen {
+    width: 100%;
+}
+
+button:hover{
+    color:aqua;
+}
