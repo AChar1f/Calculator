@@ -31,9 +31,11 @@ h1 {
 .childscreen {
     grid-column: 1/5;
     border: solid 5px black;
-    background-color: whitesmoke;
+    background-color: burlywood;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+    color:  #232323;
+    text-align: end;
 }
 .childzero {
     grid-column: 1/3;
