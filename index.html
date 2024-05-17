@@ -10,12 +10,12 @@
 <body>
     <h1>Calculator</h1>
     <div class="parent">
-    <div class="childscreen" readonly="true"  data-entry></div>
+    <input class="childscreen" readonly="true" placeholder="0" data-entry>
 
-    <div class="child" onclick="display()" divide>/</div>
-    <div class="child" onclick="display()" multiply>*</div>
-    <div class="child"onclick="display()" >%</div>
-    <div class="child"onclick="display()" >CE</div>
+    <div class="child" onclick="display('/')" divide>/</div>
+    <div class="child" onclick="display('*')" multiply>*</div>
+    <div class="child"onclick="display('%')" >%</div>
+    <div class="child"onclick="display()">CE</div>
     <div class="child" onclick="display('7')" numb7>7</div>
     <div class="child" onclick="display('8')" numb8>8</div>
     <div class="child" onclick="display('9')" numb9>9</div>
@@ -23,11 +23,11 @@
     <div class="child" onclick="display('4')" numb4>4</div>
     <div class="child" onclick="display('5')" numb5>5</div>
     <div class="child" onclick="display('6')" numb6>6</div>
-    <div class="child" onclick="display()" subtract>-</div>
+    <div class="child" onclick="display('-')" subtract>-</div>
     <div class="child" onclick="display('1')" numb1>1</div>
     <div class="child" onclick="display('2')" numb2>2</div>
     <div class="child" onclick="display('3')" numb3>3</div>
-    <div class="child" onclick="display()" add>+</div>
+    <div class="child" onclick="display('+')" add>+</div>
     <div class="childzero"onclick="display('0')" >0</div>
     <div class="child"onclick="display('.')" >.</div>
     <div class="child" onclick="display()" result>=</div>
